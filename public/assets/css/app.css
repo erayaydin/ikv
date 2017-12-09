@@ -1,0 +1,42 @@
+body {
+    background: url('../images/background.jpg') no-repeat top center;
+    background-size: cover;
+}
+
+.copyright {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    font-size: 12px;
+}
+
+.bug {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    font-size: 12px;
+}
+
+.version {
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #fff;
+    font-size: 10px;
+}
+
+.copyright, .bug, .version {
+    padding: 0 10px;
+}
+
+.copyright a, .bug a {
+    text-decoration: none;
+}
+
+.bug a {
+    color: #bb1100;
+}
