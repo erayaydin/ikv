@@ -170,6 +170,8 @@ function addItemToMap(item) {
 
 function removeItemFromMap(item) {
 
+    $("#map .item.item-"+item).remove();
+
     refreshLabel();
 }
 
