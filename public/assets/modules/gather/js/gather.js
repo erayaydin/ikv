@@ -319,4 +319,13 @@ function refreshLabel() {
     }
 }
 
+function preloadMaps() {
+    $.each(maps, function(map) {
+        var mapImage = $("a[data-target='"+map+"']").data('image');
+        var temp = new Image();
+        temp.src = mapImage;
+    });
+}
+
+preloadMaps();
 loadMap(current);
