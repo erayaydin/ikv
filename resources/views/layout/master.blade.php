@@ -48,7 +48,7 @@
 </div>
 
 <div class="version">
-    Sürüm: <b>v0.1.1</b>
+    Sürüm: <b>v0.1.2</b>
 </div>
 
 <!-- jQuery -->
