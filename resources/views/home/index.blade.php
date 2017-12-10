@@ -27,7 +27,7 @@
                 </div>
                 <div class="clearfix"></div>
                 <div id="map" class="gather-map-screen">
-                    <img src="{{ asset('assets/modules/gather/maps/eminonu.png') }}" alt="Eminönü" />
+                    <img src="{{ asset('assets/modules/gather/ui/map-placeholder.png') }}" alt="Eminönü" />
                 </div>
             </div>
         </div>

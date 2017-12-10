@@ -12,6 +12,7 @@ var maps = {
 var current = "eminonu";
 var items = [];
 var mapTotalItem = 0;
+var mapPlaceholder = $("#map img").attr('src');
 
 /** Tabs **/
 $(".gather-tabs ul li a").bind('click', function(){
@@ -31,6 +32,7 @@ $(".gather-tabs ul li a").bind('click', function(){
 });
 
 function loadMap(map) {
+    $("#map img").attr('src', mapPlaceholder);
     clearItems();
     refreshLabel();
     mapTotalItem = 0;
