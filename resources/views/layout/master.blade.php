@@ -52,12 +52,13 @@
 </div>
 
 <!-- jQuery -->
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script>window.jQuery || document.write('<script src="../../../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+<script src="{{ asset('assets/vendor/jquery/jquery-3.2.1.min.js') }}" type="text/javascript"></script>
 <!-- Popper -->
 <script src="{{ asset('assets/vendor/popper/umd/popper.min.js') }}"></script>
 <!-- Bootstrap -->
 <script src="{{ asset('assets/vendor/bootstrap/js/bootstrap.min.js') }}"></script>
+<!-- Routes -->
+<script src="{{ asset('assets/js/routes.js') }}" type="text/javascript"></script>
 
 <!-- Plugin Scripts -->
 @yield('plugin.js')

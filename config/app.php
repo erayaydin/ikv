@@ -167,6 +167,7 @@ return [
         /*
          * Package Service Providers...
          */
+        LaravelBA\LaravelJsRoutes\LaravelJsRoutesServiceProvider::class,
 
         /*
          * Application Service Providers...

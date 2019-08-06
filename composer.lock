@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "ed9092856fd45b6ad4cc86f71377577c",
+    "content-hash": "fbbccff26c7a7e949f7a9024129075d1",
     "packages": [
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -601,6 +601,67 @@
                 "psysh"
             ],
             "time": "2017-07-13T13:11:05+00:00"
+        },
+        {
+            "name": "laravelba/laravel-js-routes",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/LaravelBA/laravel-js-routes.git",
+                "reference": "3e88bf322f61cfba8edcbcfd8898d2174be43425"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/LaravelBA/laravel-js-routes/zipball/3e88bf322f61cfba8edcbcfd8898d2174be43425",
+                "reference": "3e88bf322f61cfba8edcbcfd8898d2174be43425",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/console": "^5.0",
+                "illuminate/filesystem": "^5.0",
+                "illuminate/routing": "^5.0",
+                "illuminate/support": "^5.0",
+                "php": ">=5.6.0"
+            },
+            "require-dev": {
+                "fabpot/php-cs-fixer": "^1.11",
+                "illuminate/events": "^5.0",
+                "jakub-onderka/php-console-highlighter": "^0.3",
+                "jakub-onderka/php-parallel-lint": "^0.9",
+                "mockery/mockery": "^1.0.0@dev",
+                "phpmd/phpmd": "^2.4",
+                "phpunit/phpunit": "^5.3",
+                "squizlabs/php_codesniffer": "^2.6"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "LaravelBA\\LaravelJsRoutes\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Guido Contreras Woda",
+                    "email": "guiwoda@gmail.com"
+                },
+                {
+                    "name": "Fede Isas",
+                    "email": "fedeisas@hotmail.com"
+                }
+            ],
+            "description": "Access Laravel routes from your javascript files.",
+            "keywords": [
+                "generators",
+                "javascript",
+                "laravel",
+                "routes"
+            ],
+            "abandoned": "aaronlord/laroute",
+            "time": "2016-05-24T15:00:37+00:00"
         },
         {
             "name": "league/flysystem",

@@ -13,6 +13,15 @@ use Illuminate\Http\Request;
 |
 */
 
+Route::bind('map', function($code) {
+    return \App\Map::where('code', $code)->first();
+});
+
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
+});
+
+Route::group(['namespace' => 'API'], function(){
+    Route::get('maps', ['as' => 'api.map.index', 'uses' => 'MapController@index']);
+    Route::get('map/{map}', ['as' => 'api.map.show', 'uses' => "MapController@show"]);
 });
